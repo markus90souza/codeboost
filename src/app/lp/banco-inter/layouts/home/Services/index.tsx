@@ -2,11 +2,11 @@ import { FC } from 'react'
 import Image from 'next/image'
 import { Container } from '../../../components/Container'
 
-import phoneIcon from '@/assets/icon-phone.svg'
-import solutionsIcon from '@/assets/icon-solutions.svg'
-import optionsIcon from '@/assets/icon-options.svg'
-import cardIcon from '@/assets/icon-card.svg'
-import phone from '@/assets/phone.png'
+import phoneIcon from '@/assets/banco-inter/icon-phone.svg'
+import solutionsIcon from '@/assets/banco-inter/icon-solutions.svg'
+import optionsIcon from '@/assets/banco-inter/icon-options.svg'
+import cardIcon from '@/assets/banco-inter/icon-card.svg'
+import phone from '@/assets/banco-inter/phone.png'
 
 export const Services: FC = () => {
   return (

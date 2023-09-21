@@ -1,7 +1,7 @@
 import { FC } from 'react'
 import Image from 'next/image'
 
-import arrowDown from '@/assets/arrow-down.svg'
+import arrowDown from '@/assets/banco-inter/arrow-down.svg'
 
 type MenuItemProps = {
   name: string

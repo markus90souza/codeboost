@@ -1,7 +1,7 @@
 import Image from 'next/image'
 
-import brand from '@/assets/logo.svg'
-import userIcon from '@/assets/icon-user.svg'
+import brand from '@/assets/banco-inter/logo.svg'
+import userIcon from '@/assets/banco-inter/icon-user.svg'
 import { MenuItem } from '../MenuItem'
 import { Search } from '../Search'
 import { Container } from '../Container'

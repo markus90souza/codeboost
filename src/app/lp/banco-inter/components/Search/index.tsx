@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import { FC } from 'react'
 
-import searchIcon from '@/assets/icon-search.svg'
+import searchIcon from '@/assets/banco-inter/icon-search.svg'
 
 // type SearchProps = {}
 

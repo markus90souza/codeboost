@@ -2,10 +2,10 @@ import { FC } from 'react'
 import Image from 'next/image'
 import { Container } from '../../../components/Container'
 
-import woman from '@/assets/woman.png'
-import appleStoreIcon from '@/assets/btn-apple-store.svg'
-import googleStoreIcon from '@/assets/btn-google-play.svg'
-import arrowDown from '@/assets/arrow-down.svg'
+import woman from '@/assets/banco-inter/woman.png'
+import appleStoreIcon from '@/assets/banco-inter/btn-apple-store.svg'
+import googleStoreIcon from '@/assets/banco-inter/btn-google-play.svg'
+import arrowDown from '@/assets/banco-inter/arrow-down.svg'
 
 export const Hero: FC = () => {
   return (

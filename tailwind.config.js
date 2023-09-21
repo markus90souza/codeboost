@@ -16,11 +16,22 @@ module.exports = {
       },
     },
     backgroundImage: {
-      'lp-inter-bghero': "url('./../assets/bg-hero.jpg')",
+      'lp-inter-bghero': "url('./../assets/banco-inter/bg-hero.jpg')",
     },
 
     extend: {
+      fontFamily: {
+        mono: ['var(--font-blockBerthold)'],
+      },
       colors: {
+        bk: {
+          brown: '#59291C',
+          white: '#FFFFFF',
+          bege: '#F5ECE1',
+          orange: '#ED7902',
+          yellow: '#FAAF18',
+        },
+
         'lp-inter-primary-blue': '#106E80',
         'lp-inter-primary-orange': '#EC7000',
         'lp-inter-primary-gray': '#33303E',
