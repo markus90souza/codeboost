@@ -1,3 +1,4 @@
+import { FC } from 'react'
 import Link from 'next/link'
 import { Container } from '../Container'
 import Image from 'next/image'
@@ -10,10 +11,10 @@ import twitterIcon from '@/assets/bk/icon-twitter .svg'
 
 import bkLogo from '@/assets/bk/logo-bk.svg'
 
-export function Footer() {
+export const Footer: FC = () => {
   return (
     <footer className="w-full flex flex-col bg-bk-brown items-center justify-center">
-      <Container>
+      <Container className={'pt-10 pb-24 flex flex-col sm:flex-row'}>
         <ul className="flex items-center gap-9 text-bk-white font-mono">
           <li>
             <Link href={'#'}>Fale conosco</Link>
@@ -32,25 +33,38 @@ export function Footer() {
           </li>
         </ul>
 
-        <Image alt="" src={bkLogo} />
+        <div className="">
+          <Image alt="" src={bkLogo} width={96} height={96} />
+        </div>
 
         <ul className="flex items-center gap-8">
-          <span>Acompanhe nas redes sociais</span>
+          <span className="text-bk-white font-mono">
+            Acompanhe nas redes sociais
+          </span>
           <div className=" flex items-center gap-6">
             <li>
-              <Link href={'#'}>
+              <Link
+                href={'#'}
+                className="w-6 h-6 flex items-center justify-center"
+              >
                 <Image alt="" src={instagramIcon} />
               </Link>
             </li>
 
             <li>
-              <Link href={'#'}>
+              <Link
+                href={'#'}
+                className="w-6 h-6 flex items-center justify-center"
+              >
                 <Image alt="" src={facebookIcon} />
               </Link>
             </li>
 
             <li>
-              <Link href={'#'}>
+              <Link
+                href={'#'}
+                className="w-6 h-6 flex items-center justify-center"
+              >
                 <Image alt="" src={twitterIcon} />
               </Link>
             </li>
